@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,17 +8,18 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css..." />
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="styles/style.css" />
 </head>
+
 <body>
-  <header id="nav">
+  <header>
     <div class="search">
       <a href="index.html">
         <img class="logo" src="assets/tiendamia-logo.svg" alt="Logo Store" width="218">
       </a>
       <div class="form">
         <form>
-          <input type="text" placeholder="Search">
+          <input type="text" placeholder="Search" id="search">
         </form>
       </div>
       <div class="social">
@@ -29,11 +31,11 @@
       </div>
     </div>
     <div class="nav">
-      <ul>
-        <li><a href="#">Ofertas de la semana!</a></li>
+      <ul id="nav">
+        <!-- <li><a href="#">Ofertas de la semana!</a></li>
         <li><a href="#">Productos</a></li>
         <li><a href="#">Contacto</a></li>
-        <li><a href="#">Marcas</a></li>
+        <li><a href="#">Marcas</a></li> -->
       </ul>
     </div>
   </header>
@@ -156,10 +158,10 @@
       <div class="copyright">Curso de HTML + CSS 2024</div>
     </div>
   </footer>
-  </div>
-  </footer>
   <script src="scripts/layout.js"></script>
   <script src="scripts/products.js"></script>
   <script src="scripts/ProductCards.js"></script>
+  <script src="scripts/filterproducts.js"></script>
 </body>
+
 </html>

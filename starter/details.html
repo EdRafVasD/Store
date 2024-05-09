@@ -5,24 +5,19 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Tienda Virtual</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css..." />
-  <link rel="stylesheet" href="details.css">
+  <link rel="stylesheet" href="styles/details.css">
 </head>
 
 <body>
   <header>
     <div class="search">
-      <a class="logo" href="index.html">
-        <img src="assets/tiendamia-logo.svg" alt="Logo Store" width="218">
+      <a href="index.html">
+        <img class="logo" src="assets/tiendamia-logo.svg" alt="Logo Store" width="218">
       </a>
-      <div class="form">
-        <form>
-          <input type="text" placeholder="Search">
-        </form>
-      </div>
       <div class="social">
         <ul>
           <li><img src="./assets/facebook.png" alt="facebook"></li>
@@ -32,23 +27,23 @@
       </div>
     </div>
     <div class="nav">
-      <ul>
-        <li><a href="#">Ofertas de la semana!</a></li>
+      <ul id="nav">
+        <!-- <li><a href="#">Ofertas de la semana!</a></li>
         <li><a href="#">Productos</a></li>
         <li><a href="#">Contacto</a></li>
-        <li><a href="#">Marcas</a></li>
+        <li><a href="#">Marcas</a></li> -->
       </ul>
     </div>
   </header>
   <main>
     <div class="container">
-      <div class="columns-container">
-        <div class="product-images-block">
+      <div id="product-detail" class="columns-container">
+        <!-- <div class="product-images-block">
           <div class="thumbnail-container"><img src="./assets/mock1.jpg" alt="Macbook img1"></div>
           <div class="thumbnail-container"><img src="./assets/mock2.jpg" alt="Macbook img2"></div>
           <img class="main-image" src="./assets/mock1.jpg" alt="Macbook img1">
-        </div>
-        <div class="product-description-block">
+        </div> -->
+        <!-- <div class="product-description-block">
           <h1 class="titulo">Macbook</h1>
           <form class="selector">
             <fieldset>
@@ -71,8 +66,8 @@
               100 GB/s de ancho de banda de memoria
             </p>
           </div>
-        </div>
-        <div class="product-checkout-block">
+        </div> -->
+        <!-- <div class="product-checkout-block">
           <div class="checkout-container">
             <span class="checkout-total-label">Total:</span>
             <h2 class="checkout-total-price">$152.400</h2>
@@ -101,51 +96,51 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
       <div class="sales-block">
         <h2>Productos destacados</h2>
         <article class="product-card">
           <a href="./details.html">
-          <img class="product-img" src="assets/mock1.jpg" alt="Macbook Pro" />
-          <div class="product-info">
-            <span class="product-title">Macbook Pro 15'4</span>
-            <span class="product-description">Space Gray</span>
-            <div class="product-price-block">
-              <span class="price">$750.000</span>
-              <span class="discount">50% Off</span>
+            <img class="product-img" src="assets/mock1.jpg" alt="Macbook Pro" />
+            <div class="product-info">
+              <span class="product-title">Macbook Pro 15'4</span>
+              <span class="product-description">Space Gray</span>
+              <div class="product-price-block">
+                <span class="price">$750.000</span>
+                <span class="discount">50% Off</span>
+              </div>
+              <div class="product-tax-policy">Incluye impuesto País y percepción AFIP</div>
             </div>
-            <div class="product-tax-policy">Incluye impuesto País y percepción AFIP</div>
-          </div>
           </a>
         </article>
         <article class="product-card">
           <a href="./details.html">
-          <img class="product-img" src="assets/mock1.jpg" alt="Macbook Pro" />
-          <div class="product-info">
-            <span class="product-title">Macbook Pro 15'4</span>
-            <span class="product-description">Space Gray</span>
-            <div class="product-price-block">
-              <span class="price">$750.000</span>
-              <span class="discount">50% Off</span>
+            <img class="product-img" src="assets/mock1.jpg" alt="Macbook Pro" />
+            <div class="product-info">
+              <span class="product-title">Macbook Pro 15'4</span>
+              <span class="product-description">Space Gray</span>
+              <div class="product-price-block">
+                <span class="price">$750.000</span>
+                <span class="discount">50% Off</span>
+              </div>
+              <div class="product-tax-policy">Incluye impuesto País y percepción AFIP</div>
             </div>
-            <div class="product-tax-policy">Incluye impuesto País y percepción AFIP</div>
-          </div>
-        </a>
+          </a>
         </article>
         <article class="product-card">
           <a href="./details.html">
-          <img class="product-img" src="assets/mock2.jpg" alt="Macbook Pro" />
-          <div class="product-info">
-            <span class="product-title">Macbook Pro 15'4</span>
-            <span class="product-description">Space Gray</span>
-            <div class="product-price-block">
-              <span class="price">$750.000</span>
-              <span class="discount">50% Off</span>
+            <img class="product-img" src="assets/mock2.jpg" alt="Macbook Pro" />
+            <div class="product-info">
+              <span class="product-title">Macbook Pro 15'4</span>
+              <span class="product-description">Space Gray</span>
+              <div class="product-price-block">
+                <span class="price">$750.000</span>
+                <span class="discount">50% Off</span>
+              </div>
+              <div class="product-tax-policy">Incluye impuesto País y percepción AFIP</div>
             </div>
-            <div class="product-tax-policy">Incluye impuesto País y percepción AFIP</div>
-          </div>
-        </a>
+          </a>
         </article>
       </div>
     </div>
@@ -193,8 +188,10 @@
       <div class="copyright">Curso de HTML + CSS 2024</div>
     </div>
   </footer>
-  </div>
-  </footer>
+  <script src="scripts/layout.js"></script>
+  <script src="scripts/products.js"></script>
+  <script src="scripts/productDetails.js"></script>
+
 </body>
 
 </html>

@@ -13,7 +13,7 @@ header {
 
 .search {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -289,8 +289,7 @@ main {
   margin-top: 50px;
   padding: 50px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 6fr;
+  grid-template-columns: 1fr 1fr 1fr; 
   grid-gap: 50px;
 }
 
